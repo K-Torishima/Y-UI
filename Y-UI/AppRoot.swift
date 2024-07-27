@@ -10,22 +10,30 @@ import SwiftUI
 struct AppRoot: View {
     var body: some View {
         TabView {
-            FontsRoot()
-                .tabItem {
-                    Image(systemName: "textformat.size")
-                }
-            ColorsRoot()
-                .tabItem {
-                    Image(systemName: "paintpalette.fill")
-                }
-            ComponentRoot()
-                .tabItem {
-                    Image(systemName: "rectangle.inset.topleft.filled")
-                }
-            SettingRoot()
-                .tabItem {
-                    Image(systemName: "gearshape")
-                }
+            FontsTab {
+                VStack {}
+            }
+            .tabItem {
+                Image(systemName: "textformat.size")
+            }
+            ColorsTab {
+                VStack {}
+            }
+            .tabItem {
+                Image(systemName: "paintpalette.fill")
+            }
+            ComponentTab {
+                VStack {}
+            }
+            .tabItem {
+                Image(systemName: "rectangle.inset.topleft.filled")
+            }
+            SettingTab {
+                VStack {}
+            }
+            .tabItem {
+                Image(systemName: "gearshape")
+            }
         }
     }
 }

@@ -11,10 +11,10 @@
 		16A14A1B2C55251900E63292 /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A1A2C55251900E63292 /* AppRoot.swift */; };
 		16A14A1D2C55251A00E63292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A14A1C2C55251A00E63292 /* Assets.xcassets */; };
 		16A14A202C55251A00E63292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A14A1F2C55251A00E63292 /* Preview Assets.xcassets */; };
-		16A14A2C2C5526A200E63292 /* FontsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2B2C5526A200E63292 /* FontsRoot.swift */; };
-		16A14A2E2C5526C200E63292 /* ColorsRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2D2C5526C200E63292 /* ColorsRoot.swift */; };
-		16A14A302C5526CC00E63292 /* ComponentRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2F2C5526CC00E63292 /* ComponentRoot.swift */; };
-		16A14A332C55287D00E63292 /* SettingRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A322C55287D00E63292 /* SettingRoot.swift */; };
+		16A14A2C2C5526A200E63292 /* FontsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2B2C5526A200E63292 /* FontsTab.swift */; };
+		16A14A2E2C5526C200E63292 /* ColorsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2D2C5526C200E63292 /* ColorsTab.swift */; };
+		16A14A302C5526CC00E63292 /* ComponentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2F2C5526CC00E63292 /* ComponentTab.swift */; };
+		16A14A332C55287D00E63292 /* SettingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A322C55287D00E63292 /* SettingTab.swift */; };
 		16A14A362C552A1300E63292 /* Navigation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A352C552A1300E63292 /* Navigation+Ext.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +24,10 @@
 		16A14A1A2C55251900E63292 /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
 		16A14A1C2C55251A00E63292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16A14A1F2C55251A00E63292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		16A14A2B2C5526A200E63292 /* FontsRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsRoot.swift; sourceTree = "<group>"; };
-		16A14A2D2C5526C200E63292 /* ColorsRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsRoot.swift; sourceTree = "<group>"; };
-		16A14A2F2C5526CC00E63292 /* ComponentRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentRoot.swift; sourceTree = "<group>"; };
-		16A14A322C55287D00E63292 /* SettingRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRoot.swift; sourceTree = "<group>"; };
+		16A14A2B2C5526A200E63292 /* FontsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTab.swift; sourceTree = "<group>"; };
+		16A14A2D2C5526C200E63292 /* ColorsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTab.swift; sourceTree = "<group>"; };
+		16A14A2F2C5526CC00E63292 /* ComponentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentTab.swift; sourceTree = "<group>"; };
+		16A14A322C55287D00E63292 /* SettingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTab.swift; sourceTree = "<group>"; };
 		16A14A352C552A1300E63292 /* Navigation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +64,7 @@
 				16A14A182C55251900E63292 /* Build.swift */,
 				16A14A1A2C55251900E63292 /* AppRoot.swift */,
 				16A14A342C5529DD00E63292 /* Ext */,
+				16A14A372C55321F00E63292 /* Tabs */,
 				16A14A262C55262800E63292 /* Font */,
 				16A14A282C55264100E63292 /* Colors */,
 				16A14A292C55264E00E63292 /* Component */,
@@ -85,7 +86,6 @@
 		16A14A262C55262800E63292 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				16A14A2B2C5526A200E63292 /* FontsRoot.swift */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -93,7 +93,6 @@
 		16A14A282C55264100E63292 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				16A14A2D2C5526C200E63292 /* ColorsRoot.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -101,7 +100,6 @@
 		16A14A292C55264E00E63292 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				16A14A2F2C5526CC00E63292 /* ComponentRoot.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -109,7 +107,6 @@
 		16A14A312C55286700E63292 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				16A14A322C55287D00E63292 /* SettingRoot.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -120,6 +117,17 @@
 				16A14A352C552A1300E63292 /* Navigation+Ext.swift */,
 			);
 			path = Ext;
+			sourceTree = "<group>";
+		};
+		16A14A372C55321F00E63292 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				16A14A2B2C5526A200E63292 /* FontsTab.swift */,
+				16A14A2D2C5526C200E63292 /* ColorsTab.swift */,
+				16A14A2F2C5526CC00E63292 /* ComponentTab.swift */,
+				16A14A322C55287D00E63292 /* SettingTab.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A14A302C5526CC00E63292 /* ComponentRoot.swift in Sources */,
-				16A14A2C2C5526A200E63292 /* FontsRoot.swift in Sources */,
-				16A14A332C55287D00E63292 /* SettingRoot.swift in Sources */,
+				16A14A302C5526CC00E63292 /* ComponentTab.swift in Sources */,
+				16A14A2C2C5526A200E63292 /* FontsTab.swift in Sources */,
+				16A14A332C55287D00E63292 /* SettingTab.swift in Sources */,
 				16A14A362C552A1300E63292 /* Navigation+Ext.swift in Sources */,
-				16A14A2E2C5526C200E63292 /* ColorsRoot.swift in Sources */,
+				16A14A2E2C5526C200E63292 /* ColorsTab.swift in Sources */,
 				16A14A1B2C55251900E63292 /* AppRoot.swift in Sources */,
 				16A14A192C55251900E63292 /* Build.swift in Sources */,
 			);
