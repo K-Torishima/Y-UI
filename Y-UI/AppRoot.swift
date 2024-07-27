@@ -16,7 +16,7 @@ struct AppRoot: View {
             .tabItem {
                 Image(systemName: "textformat.size")
             }
-            ColorsTab {
+            ColorPaletteTab {
                 VStack {}
             }
             .tabItem {

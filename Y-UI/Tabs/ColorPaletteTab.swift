@@ -3,13 +3,13 @@
 
 import SwiftUI
 
-struct ColorsTab<Content: View>: View {
+struct ColorPaletteTab<Content: View>: View {
     private let content: Content
     
     var body: some View {
         NavigationStack {
             content
-                .navigation(title: "Colors")
+                .navigation(title: "ColorPalette")
         }
     }
     
