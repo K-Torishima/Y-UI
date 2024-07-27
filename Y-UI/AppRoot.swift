@@ -10,7 +10,7 @@ import SwiftUI
 struct AppRoot: View {
     var body: some View {
         TabView {
-            FontsTab {
+            TypographyTab {
                 VStack {}
             }
             .tabItem {
