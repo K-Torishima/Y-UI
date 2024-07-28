@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		160E2D822C567AF500B75270 /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E2D812C567AF500B75270 /* ColorList.swift */; };
+		160E2D842C567DCF00B75270 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E2D832C567DCF00B75270 /* ColorModel.swift */; };
+		160E2D862C568E2B00B75270 /* ColorListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E2D852C568E2B00B75270 /* ColorListRow.swift */; };
+		160E2D882C568E7900B75270 /* ColorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E2D872C568E7900B75270 /* ColorDetail.swift */; };
 		16A14A192C55251900E63292 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A182C55251900E63292 /* Build.swift */; };
 		16A14A1B2C55251900E63292 /* AppRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A1A2C55251900E63292 /* AppRoot.swift */; };
 		16A14A1D2C55251A00E63292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A14A1C2C55251A00E63292 /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		160E2D812C567AF500B75270 /* ColorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorList.swift; sourceTree = "<group>"; };
+		160E2D832C567DCF00B75270 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		160E2D852C568E2B00B75270 /* ColorListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListRow.swift; sourceTree = "<group>"; };
+		160E2D872C568E7900B75270 /* ColorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetail.swift; sourceTree = "<group>"; };
 		16A14A152C55251900E63292 /* Y-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Y-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A14A182C55251900E63292 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
 		16A14A1A2C55251900E63292 /* AppRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoot.swift; sourceTree = "<group>"; };
@@ -48,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				160E2D812C567AF500B75270 /* ColorList.swift */,
+				160E2D852C568E2B00B75270 /* ColorListRow.swift */,
+				160E2D872C568E7900B75270 /* ColorDetail.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 		16A14A3B2C55346D00E63292 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				160E2D832C567DCF00B75270 /* ColorModel.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -235,9 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160E2D842C567DCF00B75270 /* ColorModel.swift in Sources */,
+				160E2D882C568E7900B75270 /* ColorDetail.swift in Sources */,
 				16A14A302C5526CC00E63292 /* ComponentTab.swift in Sources */,
 				160E2D822C567AF500B75270 /* ColorList.swift in Sources */,
 				16A14A2C2C5526A200E63292 /* TypographyTab.swift in Sources */,
+				160E2D862C568E2B00B75270 /* ColorListRow.swift in Sources */,
 				16A14A332C55287D00E63292 /* SettingTab.swift in Sources */,
 				16A14A362C552A1300E63292 /* Navigation+Ext.swift in Sources */,
 				16A14A2E2C5526C200E63292 /* ColorPaletteTab.swift in Sources */,

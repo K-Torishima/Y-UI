@@ -11,13 +11,20 @@ struct AppRoot: View {
     var body: some View {
         TabView {
             TypographyTab {
-                VStack {}
+                VStack {
+                    NavigationLink {
+                        VStack {}
+                    } label: {
+                        Text("text")
+                    }
+
+                }
             }
             .tabItem {
                 Image(systemName: "textformat.size")
             }
             ColorPaletteTab {
-                VStack {}
+                ColorList()
             }
             .tabItem {
                 Image(systemName: "paintpalette.fill")

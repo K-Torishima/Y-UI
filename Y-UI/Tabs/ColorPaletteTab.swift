@@ -11,6 +11,7 @@ struct ColorPaletteTab<Content: View>: View {
             content
                 .navigation(title: "ColorPalette")
         }
+        .tint(.red)
     }
     
     init(@ViewBuilder content: () -> Content) {
