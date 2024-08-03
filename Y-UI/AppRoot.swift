@@ -30,7 +30,7 @@ struct AppRoot: View {
                 Image(systemName: "paintpalette.fill")
             }
             ComponentTab {
-                VStack {}
+                ItemList()
             }
             .tabItem {
                 Image(systemName: "rectangle.inset.topleft.filled")

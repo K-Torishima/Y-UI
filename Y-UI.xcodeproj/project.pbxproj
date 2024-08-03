@@ -20,6 +20,23 @@
 		16A14A302C5526CC00E63292 /* ComponentTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A2F2C5526CC00E63292 /* ComponentTab.swift */; };
 		16A14A332C55287D00E63292 /* SettingTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A322C55287D00E63292 /* SettingTab.swift */; };
 		16A14A362C552A1300E63292 /* Navigation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A14A352C552A1300E63292 /* Navigation+Ext.swift */; };
+		16F23D2C2C5DD87200EF68E9 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D2B2C5DD87200EF68E9 /* ItemList.swift */; };
+		16F23D302C5DEEAA00EF68E9 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D2F2C5DEEAA00EF68E9 /* Buttons.swift */; };
+		16F23D322C5DEEC000EF68E9 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D312C5DEEC000EF68E9 /* Menus.swift */; };
+		16F23D342C5DEED800EF68E9 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D332C5DEED800EF68E9 /* Pickers.swift */; };
+		16F23D362C5DEEEB00EF68E9 /* ProgressIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D352C5DEEEB00EF68E9 /* ProgressIndicators.swift */; };
+		16F23D382C5DEEFC00EF68E9 /* SegmentedControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D372C5DEEFC00EF68E9 /* SegmentedControls.swift */; };
+		16F23D3A2C5DEF0900EF68E9 /* Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D392C5DEF0900EF68E9 /* Sliders.swift */; };
+		16F23D3D2C5DEF1E00EF68E9 /* Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D3C2C5DEF1E00EF68E9 /* Steppers.swift */; };
+		16F23D3F2C5DEF3100EF68E9 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D3E2C5DEF3100EF68E9 /* TextFields.swift */; };
+		16F23D412C5DEF4200EF68E9 /* Toggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D402C5DEF4200EF68E9 /* Toggles.swift */; };
+		16F23D442C5DEF6800EF68E9 /* ActionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D432C5DEF6800EF68E9 /* ActionSheets.swift */; };
+		16F23D462C5DEF7B00EF68E9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D452C5DEF7B00EF68E9 /* ActivityView.swift */; };
+		16F23D482C5DEF8700EF68E9 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D472C5DEF8700EF68E9 /* Alerts.swift */; };
+		16F23D4A2C5DEF9700EF68E9 /* ContextualMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D492C5DEF9700EF68E9 /* ContextualMenus.swift */; };
+		16F23D4C2C5DEFA300EF68E9 /* Popovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4B2C5DEFA300EF68E9 /* Popovers.swift */; };
+		16F23D4E2C5DEFB700EF68E9 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4D2C5DEFB700EF68E9 /* Sheets.swift */; };
+		16F23D502C5E336700EF68E9 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4F2C5E336700EF68E9 /* ListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +54,23 @@
 		16A14A2F2C5526CC00E63292 /* ComponentTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentTab.swift; sourceTree = "<group>"; };
 		16A14A322C55287D00E63292 /* SettingTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTab.swift; sourceTree = "<group>"; };
 		16A14A352C552A1300E63292 /* Navigation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+Ext.swift"; sourceTree = "<group>"; };
+		16F23D2B2C5DD87200EF68E9 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		16F23D2F2C5DEEAA00EF68E9 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		16F23D312C5DEEC000EF68E9 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		16F23D332C5DEED800EF68E9 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		16F23D352C5DEEEB00EF68E9 /* ProgressIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicators.swift; sourceTree = "<group>"; };
+		16F23D372C5DEEFC00EF68E9 /* SegmentedControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControls.swift; sourceTree = "<group>"; };
+		16F23D392C5DEF0900EF68E9 /* Sliders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sliders.swift; sourceTree = "<group>"; };
+		16F23D3C2C5DEF1E00EF68E9 /* Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steppers.swift; sourceTree = "<group>"; };
+		16F23D3E2C5DEF3100EF68E9 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		16F23D402C5DEF4200EF68E9 /* Toggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toggles.swift; sourceTree = "<group>"; };
+		16F23D432C5DEF6800EF68E9 /* ActionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheets.swift; sourceTree = "<group>"; };
+		16F23D452C5DEF7B00EF68E9 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		16F23D472C5DEF8700EF68E9 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		16F23D492C5DEF9700EF68E9 /* ContextualMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextualMenus.swift; sourceTree = "<group>"; };
+		16F23D4B2C5DEFA300EF68E9 /* Popovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popovers.swift; sourceTree = "<group>"; };
+		16F23D4D2C5DEFB700EF68E9 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		16F23D4F2C5E336700EF68E9 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +155,9 @@
 		16A14A292C55264E00E63292 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				16F23D2A2C5DD86000EF68E9 /* UI */,
 				16A14A3C2C55352200E63292 /* Items */,
+				16F23D422C5DEF4B00EF68E9 /* Views */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -170,8 +206,39 @@
 		16A14A3C2C55352200E63292 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				16F23D2F2C5DEEAA00EF68E9 /* Buttons.swift */,
+				16F23D312C5DEEC000EF68E9 /* Menus.swift */,
+				16F23D332C5DEED800EF68E9 /* Pickers.swift */,
+				16F23D352C5DEEEB00EF68E9 /* ProgressIndicators.swift */,
+				16F23D372C5DEEFC00EF68E9 /* SegmentedControls.swift */,
+				16F23D392C5DEF0900EF68E9 /* Sliders.swift */,
+				16F23D3C2C5DEF1E00EF68E9 /* Steppers.swift */,
+				16F23D3E2C5DEF3100EF68E9 /* TextFields.swift */,
+				16F23D402C5DEF4200EF68E9 /* Toggles.swift */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		16F23D2A2C5DD86000EF68E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				16F23D2B2C5DD87200EF68E9 /* ItemList.swift */,
+				16F23D4F2C5E336700EF68E9 /* ListRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		16F23D422C5DEF4B00EF68E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16F23D432C5DEF6800EF68E9 /* ActionSheets.swift */,
+				16F23D452C5DEF7B00EF68E9 /* ActivityView.swift */,
+				16F23D472C5DEF8700EF68E9 /* Alerts.swift */,
+				16F23D492C5DEF9700EF68E9 /* ContextualMenus.swift */,
+				16F23D4B2C5DEFA300EF68E9 /* Popovers.swift */,
+				16F23D4D2C5DEFB700EF68E9 /* Sheets.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,16 +311,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F23D342C5DEED800EF68E9 /* Pickers.swift in Sources */,
 				160E2D842C567DCF00B75270 /* ColorModel.swift in Sources */,
 				160E2D882C568E7900B75270 /* ColorDetail.swift in Sources */,
+				16F23D412C5DEF4200EF68E9 /* Toggles.swift in Sources */,
 				16A14A302C5526CC00E63292 /* ComponentTab.swift in Sources */,
+				16F23D3D2C5DEF1E00EF68E9 /* Steppers.swift in Sources */,
+				16F23D382C5DEEFC00EF68E9 /* SegmentedControls.swift in Sources */,
+				16F23D302C5DEEAA00EF68E9 /* Buttons.swift in Sources */,
 				160E2D822C567AF500B75270 /* ColorList.swift in Sources */,
+				16F23D2C2C5DD87200EF68E9 /* ItemList.swift in Sources */,
+				16F23D482C5DEF8700EF68E9 /* Alerts.swift in Sources */,
 				16A14A2C2C5526A200E63292 /* TypographyTab.swift in Sources */,
+				16F23D502C5E336700EF68E9 /* ListRow.swift in Sources */,
+				16F23D362C5DEEEB00EF68E9 /* ProgressIndicators.swift in Sources */,
+				16F23D4A2C5DEF9700EF68E9 /* ContextualMenus.swift in Sources */,
+				16F23D3A2C5DEF0900EF68E9 /* Sliders.swift in Sources */,
+				16F23D4C2C5DEFA300EF68E9 /* Popovers.swift in Sources */,
+				16F23D442C5DEF6800EF68E9 /* ActionSheets.swift in Sources */,
 				160E2D862C568E2B00B75270 /* ColorListRow.swift in Sources */,
 				16A14A332C55287D00E63292 /* SettingTab.swift in Sources */,
 				16A14A362C552A1300E63292 /* Navigation+Ext.swift in Sources */,
+				16F23D3F2C5DEF3100EF68E9 /* TextFields.swift in Sources */,
+				16F23D462C5DEF7B00EF68E9 /* ActivityView.swift in Sources */,
+				16F23D322C5DEEC000EF68E9 /* Menus.swift in Sources */,
 				16A14A2E2C5526C200E63292 /* ColorPaletteTab.swift in Sources */,
 				16A14A1B2C55251900E63292 /* AppRoot.swift in Sources */,
+				16F23D4E2C5DEFB700EF68E9 /* Sheets.swift in Sources */,
 				16A14A192C55251900E63292 /* Build.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
