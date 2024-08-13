@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Build: App {
+    
+    @State private var scheme: ColorScheme = .light
+    
     var body: some Scene {
         WindowGroup {
             AppRoot()
+                .environment(\.appearanceMode, $scheme)
+                .preferredColorScheme(scheme)
         }
     }
 }

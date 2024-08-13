@@ -36,7 +36,7 @@ struct AppRoot: View {
                 Image(systemName: "rectangle.inset.topleft.filled")
             }
             SettingTab {
-                VStack {}
+                Settings()
             }
             .tabItem {
                 Image(systemName: "gearshape")

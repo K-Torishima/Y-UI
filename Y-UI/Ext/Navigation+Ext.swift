@@ -15,4 +15,3 @@ extension View {
             .navigationBarTitleDisplayMode(.large)
     }
 }
-

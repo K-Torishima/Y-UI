@@ -37,6 +37,7 @@
 		16F23D4C2C5DEFA300EF68E9 /* Popovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4B2C5DEFA300EF68E9 /* Popovers.swift */; };
 		16F23D4E2C5DEFB700EF68E9 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4D2C5DEFB700EF68E9 /* Sheets.swift */; };
 		16F23D502C5E336700EF68E9 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D4F2C5E336700EF68E9 /* ListRow.swift */; };
+		16F23D522C6B235800EF68E9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F23D512C6B235800EF68E9 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		16F23D4B2C5DEFA300EF68E9 /* Popovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popovers.swift; sourceTree = "<group>"; };
 		16F23D4D2C5DEFB700EF68E9 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 		16F23D4F2C5E336700EF68E9 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		16F23D512C6B235800EF68E9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		16A14A312C55286700E63292 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				16F23D512C6B235800EF68E9 /* Settings.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F23D522C6B235800EF68E9 /* Settings.swift in Sources */,
 				16F23D342C5DEED800EF68E9 /* Pickers.swift in Sources */,
 				160E2D842C567DCF00B75270 /* ColorModel.swift in Sources */,
 				160E2D882C568E7900B75270 /* ColorDetail.swift in Sources */,
