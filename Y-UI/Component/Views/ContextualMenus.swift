@@ -4,7 +4,17 @@ import SwiftUI
 
 struct ContextualMenus: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("open menu")
+                .padding()
+                .background(Color.backgroundSecondary)
+                .clipShape(.rect(cornerRadius: 10.0))
+                .contextMenu(ContextMenu(menuItems: {
+                    Text("Menu Item 1")
+                    Text("Menu Item 2")
+                    Text("Menu Item 3")
+                }))
+        }
     }
 }
 
